@@ -1,0 +1,117 @@
+.admin {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.admin__title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+.form {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.form__group {
+    display: flex;
+    margin: 20px;
+}
+
+.form__group--label {
+    width: 12%;
+}
+
+.form__input {
+    width: 30%;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.form__radio {
+    margin: 0 10px;
+}
+
+.thead__wrapper {
+    border: 2px solid #000000;
+}
+
+.admin__table {
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.admin__th {
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+}
+
+.admin__th th {
+    padding: 10px 5px;
+}
+
+.admin__td {
+    border-bottom: 1px solid black;
+}
+
+.opinion_wrapper {
+    width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.opinion_wrapper:hover {
+    white-space: normal;
+}
+
+.button__wrapper {
+    text-align: center;
+}
+
+.form__button-search {
+    font-size: 16px;
+    margin: 20px;
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__button-reset {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.form__button-delete {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+svg.w-5.h-5 {
+    /*paginateメソッドの矢印の大きさ調整のために追加*/
+    width: 30px;
+    height: 30px;
+}

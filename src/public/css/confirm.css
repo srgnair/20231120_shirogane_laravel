@@ -1,0 +1,80 @@
+.confirm__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-table {
+    border: none;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 20%;
+    border: none;
+    font-weight: bold;
+}
+
+.confirm-table__text {
+    display: flex;
+    padding: 15px;
+    border: 1px solid none;
+}
+
+.confirm-table__text input {
+    outline: none;
+    border: none;
+}
+
+.input__last-name,
+.input__first-name {
+    text-align: left;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.correct__button {
+    text-align: center;
+}
+
+.correct__button--text {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
